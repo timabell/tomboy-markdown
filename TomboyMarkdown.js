@@ -83,6 +83,6 @@ var markdownOutputStream = {
 
     'list-item' : {
         open : function() {
-            return '  '.repeat(markdownOutputStream._listLevel) + '* ';
+            return '\t'.repeat(markdownOutputStream._listLevel) + '* ';
     }, close : this._returnString('') }
 }
