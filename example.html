@@ -8,7 +8,29 @@
 	</head>
 	
 	<body>
-        <textarea id="example-output"></textarea>
+        <textarea id="example-input" cols="80" rows="20">
+Test Note\
+Bold cat is <bold>bold</bold>.\n\
+Italic cat is i<italic>talic</italic>\n\
+Strikeout cat is <strikethrough>striked out</strikethrough>.\n\
+Highlighted cat is <highlight>highlighted</highlight>.\n\
+Monospace cat is <monospace>monospaced</monospace>.\n\
+\n\
+<size:small>Small cat</size:small>\n\
+Normal cat\n\
+<size:large>Large cat</size:large>\n\
+<size:huge>Huge cat</size:huge>\n\
+\n\
+<list><list-item dir="ltr">first cat\n\
+</list-item><list-item dir="ltr">second <bold>bold</bold> cat\n\
+</list-item><list-item dir="ltr">third <highlight>highlight</highlight> cat\n\
+<list><list-item dir="ltr">fourth second-level cat\n\
+</list-item></list></list-item><list-item dir="ltr">first-level <italic>italic</italic> cat</list-item></list>
+	</textarea>
+	<br/>
+	<button id="convert">convert</button>
+	<br/>
+        <textarea id="example-output" cols="80" rows="20"></textarea>
         <script type="text/javascript" src="./example.js"></script>
 	</body>
 </html>
